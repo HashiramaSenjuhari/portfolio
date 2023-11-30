@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@400;700&display=swap');
+body
+{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  overflow-x: hidden; 
+}
+html
+{
+  scroll-behavior: smooth;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s;
+}
+/* --------------------------- */
+.HARI-PRASATH {
+  position: absolute;
+  width: 120px;
+  top: 35px;
+  left: 73px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* background: #f3ff53; */
+}
+.prasath
+{
+  position: absolute;
+  width: 180px;
+  top: 70px;
+  left: 73px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* background: #f3ff53; */
+}
+
+
+.text-wrapper a{
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  top: 35px;
+  left: 934px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0.88px;
+  line-height: normal;
+  transition: 0.3s;
+  padding-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-wrapper a:hover
+{
+  color: #5a5a597b;
+}
+
+.text-wrapper-2 a{
+  position: absolute;
+  height: 20px;
+  width: 200px;
+  top: 75px;
+  left: 938px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0.88px;
+  line-height: normal;
+  transition:   0.3s; 
+  padding-left: 10px;
+  text-decoration: none;
+}
+.text-wrapper-2 a:hover
+{
+ color: #5a5a597b;
+}
+/* .text-wrapper-2 a:hover
+{
+  color: #ffffff;
+  background-color: #000000;
+} */
+
+
+.icon-combine {
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  top: 35px;
+  left: 1226px;
+}
+
+.instagram-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 105px;
+}
+
+
+.github-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 5px;
+  left: 10px;
+}
+
+
+ .img {
+  position: absolute;
+  width: 478px;
+  height: 385px;
+  top: 312px;
+  left: 184px;
+}
+
+
+ .text-wrapper-3 {
+  position: absolute;
+  width: 136px;
+  top: 388px;
+  left: 1006px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+
+.github-icon:active
+{
+  transform: translateY(1px);
+}
+.instagram-icon:active
+{
+  transform: translateY(1px);
+}
+
+.div
+{
+  position: absolute;
+  width: 1425px;
+  height: 115px;
+  top: -50px;
+  left: -5px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: transparent;
+  box-shadow: 0px 2px 4px #00000040;
+  background-color: rgba(255, 255, 255, 0.387);
+  backdrop-filter: blur(20px) saturate(5);
+  
+}
+.divv
+{
+  position: fixed;
+  z-index: 99999;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  }
+.div-2
+{
+  z-index: -1000px;
+}
+.div-2
+{
+  min-height: 380vh;
+  width: 100%;
+}
+/* ---------------------------- */
+.main-profile
+{
+  font-family: 'Poppins', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.0003em;
+}
+#hover-background
+{
+  background: #dee2e6;
+}
+#top-image
+{
+ height: 60px;
+ width: 65px;
+}
+#top-image
+{
+ position: absolute;
+ top: 170px;
+ left: 690px;
+ text-shadow: 5px 5px 5px;
+}
+/* ------------------------------------------------------- */
+#profile-img
+{
+  height: 460px;
+  width: 450px;
+  border-radius: 60px;
+}
+#profile-img
+{
+ position: absolute;
+ top: 492px;
+ left: 247px;
+ display:inline-block;
+}
+.tooltip-1
+{
+  height: 180px;
+  width: 250px;
+  position: absolute;
+  left: -3px;
+  top: 480px;
+}
+.box-1 .tooltip-1
+{
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.box-1:hover .tooltip-1 {
+  visibility: visible;
+  opacity: 1;
+}
+/* ------------------------------------------------------- */
+#profile-img-1
+{
+ height: 299px;
+ width: 500px;
+}
+#profile-img-1
+{
+ position: absolute;
+ top: 430px;
+ left: 707px;
+}
+.tooltip-2
+{
+  height: 130px;
+  width: 324px;
+  position: absolute;
+  left:1050px;
+  top: 360px;
+  border-radius: 50px;
+
+}
+.box-2 .tooltip-2
+{
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 3s;
+}
+.box-2:hover .tooltip-2 {
+  visibility: visible;
+  opacity: 1;
+}
+/* ---------------------------------------------------------- */
+#profile-img-2
+{
+ height: 255px;
+ width: 235px;
+}
+#profile-img-2
+{
+ position: absolute;
+ top: 720px;
+ left: 707px;
+}
+.tooltip-3
+{
+  height: 156px;
+  width: 291px;
+  position: absolute;
+  left:600px;
+  top: 950px;
+  border-radius: 50px;
+
+}
+.box-3 .tooltip-3
+{
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 3s;
+}
+.box-3:hover .tooltip-3{
+  visibility: visible;
+  opacity: 1;
+} 
+/* ------------------------------------------------------------- */
+#profile-img-3
+{
+ height: 250px;
+ width: 275px;
+}
+#profile-img-3
+{
+ position: absolute;
+ top: 720px;
+ left: 930px;
+}
+.tooltip-4
+{
+  height: 200px;
+  width: 340px;
+  position: absolute;
+  left:980px;
+  top: 960px;
+  border-radius: 50px;
+
+}
+.box-4 .tooltip-4
+{
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 3s;
+}
+.box-4:hover .tooltip-4 {
+  visibility: visible;
+  opacity: 1;
+}
+/* ------------------------------------------------ */
+
+h1
+{
+ font-weight: 800;
+ font-size: 50px;
+}
+h1
+{
+  padding-left: 460px;
+  padding-top: 200px;
+  
+ /* position:absolute;
+ left: 387px;
+ top: 106px; */
+}
+.profile-para
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+.profile-para
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.profile-para-2
+{
+  position: absolute;
+  top: 390px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade In Object on Button Click</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <button id="fadeInButton">Fade In</button>
+    <div id="fadeObject" class="hidden">
+        <div class="chat-position">
+            <form action="gmail.com">
+              <div class="form table">
+                <h2>FEEDBACK</h2>
+                <input id="chat" type="text" placeholder="" required >
+                <button class="chat-button">Send message</button>
+            </form>
+        
+            </div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+    const fadeInButton = document.getElementById("fadeInButton");
+const fadeObject = document.getElementById("fadeObject");
+
+fadeInButton.addEventListener("click", () => {
+    // Get the position of the button
+    const buttonRect = fadeInButton.getBoundingClientRect();
+
+    // Set the position of the fading object to match the button
+    fadeObject.style.top = buttonRect.top + "px";
+    fadeObject.style.left = buttonRect.left + "px";
+
+    // Remove the "hidden" class to make the object visible
+    fadeObject.classList.remove("hidden");
+
+    // Use a setTimeout to trigger the fade-in effect
+    setTimeout(() => {
+        fadeObject.style.opacity = 10;
+    }, 100);
+});
+
+</script>

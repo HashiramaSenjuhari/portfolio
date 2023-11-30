@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./aboutdemo.css">
+  <link rel="icon" type="image/x-icon" href="./language/hp.png">
+</head>
+<body>
+
+  <div class="fade-in">
+    <div class="divv">
+      <div id="div" class="div">
+        <div class="HARI-PRASATH">HARI <br></div>
+          <span class="prasath">PRASATH</span>
+            <div class="text-wrapper"><a href="aboutme.html">About me</a></div>
+              <div class="text-wrapper-2"><a href="index.html#work">Works</a></div>
+              <!-- <div class="toggle"></div> -->
+                 <div class="icon-combine">
+                  <a href="">
+                  <img class="instagram-icon" src="./pngwing.com (11).png" alt="">
+                  </a>
+                  <a class="github-icon" href="https://github.com/HashiramaSenjuhari">
+                 <img class="github-icon" src="./pngwing.com (12).png" alt=""> 
+                </a>
+              </div>
+             </div> 
+            </div>
+
+
+    <img class="bulb" src="./language/bulb.png" alt="">
+    <h1>Hari's Creativity Kit</h1>
+    <p>You want to know more about me?  <span class="hover">Hover </span> on each item and
+      <br><span class="span"> My Creativity Kit will tell you more about me!</span>
+</p>
+
+<div class="tooltip">
+  <img class="brain" src="./language/brain.png" alt="">
+  <span class="tooltiptext"><img id="tooltip-img" src="./language/tooltip-1.png" alt="" ></span>
+</div>
+
+<div class="tooltip-1">
+  <img class="computer" src="./language/computer.png" alt="">
+  <span class="tooltiptext-1"><img id="tooltip-img-1" src="./language/tooltip-2.png" alt=""></span>
+</div>
+
+<div class="tooltip-2">
+  <img class="music" src="./language/music.png" alt="">
+  <span class="tooltiptext-2"><img id="tooltip-img-2" src="./language/tooltip-4.png" alt=""></span>
+</div>
+<div class="tooltip-3">
+  <img class="coffee" src="./language/coffee.png" alt="" style="width: 275px;">
+  <span class="tooltiptext-3"><img id="tooltip-img-3" src="./language/tooltip-3.png" alt=""></span>
+</div> 
+  </div>
+</body>
+<script>
+  
+const fadeBox = document.getElementById('div');
+let lastScrollPosition = 0;
+
+ window.addEventListener('scroll', () => {
+     const currentScrollPosition = window.scrollY;
+
+     if (currentScrollPosition > lastScrollPosition) {
+         // Scrolling down
+         fadeBox.style.opacity = '0';
+     } else {
+         // Scrolling up
+         fadeBox.style.opacity = '1';
+     }
+
+     lastScrollPosition = currentScrollPosition;
+ });
+
+//  -------------------------------------------------------------
+
+ document.addEventListener("DOMContentLoaded", function() {
+    const element = document.querySelector(".fade-in");
+    element.style.opacity = 3; 
+});
+
+</script>
+</html>

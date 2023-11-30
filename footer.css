@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@400;700&display=swap');
+
+body
+{
+  background: #e4e5e7;overflow-x: hidden;
+}
+  .fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+.HARI-PRASATH {
+  position: absolute;
+  width: 120px;
+  top: 35px;
+  left: 73px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* background: #f3ff53; */
+}
+.prasath
+{
+  position: absolute;
+  width: 180px;
+  top: 70px;
+  left: 73px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* background: #f3ff53; */
+}
+
+
+.text-wrapper a{
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  top: 35px;
+  left: 934px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0.88px;
+  line-height: normal;
+  transition: 0.3s;
+  padding-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-wrapper a:hover
+{
+  color: #5a5a597b;
+}
+
+.text-wrapper-2 a{
+  position: absolute;
+  height: 20px;
+  width: 200px;
+  top: 75px;
+  left: 938px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0.88px;
+  line-height: normal;
+  transition:   0.3s; 
+  padding-left: 10px;
+  text-decoration: none;
+}
+.text-wrapper-2 a:hover
+{
+ color: #5a5a597b;
+}
+/* .text-wrapper-2 a:hover
+{
+  color: #ffffff;
+  background-color: #000000;
+} */
+
+
+.icon-combine {
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  top: 35px;
+  left: 1226px;
+}
+
+.instagram-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 105px;
+}
+
+
+.github-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 5px;
+  left: 10px;
+}
+
+
+ .img {
+  position: absolute;
+  width: 478px;
+  height: 385px;
+  top: 312px;
+  left: 184px;
+}
+
+
+ .text-wrapper-3 {
+  position: absolute;
+  width: 136px;
+  top: 388px;
+  left: 1006px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+
+.github-icon:active
+{
+  transform: translateY(1px);
+}
+.instagram-icon:active
+{
+  transform: translateY(1px);
+}
+
+.div
+{
+  position: absolute;
+  width: 1425px;
+  height: 115px;
+  top: -30px;
+  left: -5px;
+  background-color:transparent;
+  border: 1px solid;
+  border-color: transparent;
+  transition: opacity 0.5s;
+  backdrop-filter: blur(20px) saturate(5);
+  
+}
+.divv
+{
+  position: fixed;
+  z-index: 99999;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  }
+.div-2
+{
+  z-index: -1000px;
+}
+.div-2
+{
+  min-height: 380vh;
+  width: 100%;
+
+}
+/* ------------------------------------------------------------------------------------ */
+
+
+ /* background: rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  /* ----------------------------------------------------- */
+  /* Define the keyframes for the animation */
+ /* ------------------------------------------------------------------------------- */
+.div-1
+{
+ width: 100%;
+ height: 200px;
+}
+.flipfold
+{
+  width: 850px;
+  position: absolute;
+  top: 90px;
+  left: 300px;
+  animation: moveUpDown 2s linear infinite alternate;
+}
+@keyframes moveUpDown {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 90px; /* Adjust this value for the desired height */
+  }
+}
+.div-3
+{
+ width: 100%;
+ height: 1000px;
+ background:#eeeeee;
+ position: absolute;
+ top: 800px;
+}
+.mockup-1 
+{
+  width:1000px;
+  position: absolute;
+  top: 90px;
+  left: 350px;
+}
+.div-3-1
+{
+  width: 40%;
+  height: 200px;
+  font-family: 'Poppins', sans-serif; ;
+  font-size: large;
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 100px;
+  font-weight: 600;
+}
+.mockup-heading
+{
+  font-size: 50px;
+}
+.div-4
+{
+  width: 100%;
+  min-height: 250vh;
+  height: 700px;
+  background: #eeeeeeee;
+  position: absolute;
+  top: 198%;
+  
+}
+.detail-mockup
+{
+  height: 43%;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}

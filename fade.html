@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+  .fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+</style>
+<body>
+    <div class="fade-in">
+        <h1>NARUTO</h1>
+        <p>RASENGAN.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const element = document.querySelector(".fade-in");
+    element.style.opacity = 1; 
+});
+
+</script>
+</html>

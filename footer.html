@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Hari Design | Explore</title>
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="icon" type="image/x-icon" href="./language/hp.png">
+</head>
+<style>
+  *{
+    scroll-behavior: smooth;
+  }
+
+</style>
+<body>
+  <div class="fade-in">
+  <div class="divv">
+    <div id="div" class="div">
+      <div class="HARI-PRASATH">HARI <br></div>
+        <span class="prasath">PRASATH</span>
+          <div class="text-wrapper"><a href="aboutme.html">About me</a></div>
+            <div class="text-wrapper-2"><a href="index.html#work">Works</a></div>
+            <!-- <div class="toggle"></div> -->
+               <div class="icon-combine">
+                <a href="">
+                <img class="instagram-icon" src="./pngwing.com (11).png" alt="">
+                </a>
+                <a class="github-icon" href="https://github.com/HashiramaSenjuhari">
+               <img class="github-icon" src="./pngwing.com (12).png" alt=""> 
+              </a>
+            </div>
+           </div> 
+          </div>
+
+          <div id="hole-page" class="hole-page">
+            <div id="div-1" class="div-1">
+             <img id="flipfold" class="flipfold" src="./language/flipfold.png" alt="">
+            </div>
+            <div  class="div-3" id="div-3">
+              <img id="mockup-1" class="mockup-1" src="./language/main-mockup.png">
+               <div class="div-3-1">
+                <h1 class="mockup-heading">Case study: </h1>
+                <p id="mockup para" class="mockup para">In the digital age, car shopping has changed. Mobile apps are vital in this transformation. ZoomScout is a user-friendly app, connecting car buyers to a vast inventory. It offers advanced search features and improves the car buying process.</p>
+            </div>
+            </div>
+            <div class="div-4">
+              
+              <img id="detail-mockup" class="detail-mockup" src="./language/main-screen.png" alt="">
+             
+            </div>
+          </div> 
+</body>
+<script>
+   
+    window.addEventListener('scroll', function () {
+   let value = window.scrollY;
+   let mockUp = document.getElementById('mockup-1');
+
+   // Calculate the maximum position at which you want to stop the animation
+   const stopPosition = 500; // Adjust this value as needed
+
+   if (value <= stopPosition) {
+     // Move the element as long as it hasn't reached the stop position
+     mockUp.style.left = value + 1.05 + 'px';
+   } else {
+     // If it has reached the stop position, keep it at that position
+     mockUp.style.left = stopPosition + 'px';
+   }
+ });
+
+//  for 
+
+//  const fadeElement = document.querySelector('.mockup-1');
+
+//  window.addEventListener('scroll', () => {
+//    // Calculate the scroll position relative to the element
+//    const elementTop = fadeElement.getBoundingClientRect().top;
+  
+//    // Adjust the value (e.g., 200) as needed for when you want the fade-in effect to start
+//    if (elementTop < 5) {
+//      fadeElement.style.opacity = 1;
+//    } else {
+//      fadeElement.style.opacity = 0;
+//    }
+//  });
+
+const fadeBox = document.getElementById('div');
+let lastScrollPosition = 0;
+
+ window.addEventListener('scroll', () => {
+     const currentScrollPosition = window.scrollY;
+
+     if (currentScrollPosition > lastScrollPosition) {
+         // Scrolling down
+         fadeBox.style.opacity = '0';
+     } else {
+         // Scrolling up
+         fadeBox.style.opacity = '1';
+     }
+
+     lastScrollPosition = currentScrollPosition;
+ });
+
+// ------------------------------------------------------------------------------------------
+
+document.addEventListener("DOMContentLoaded", function() {
+    const element = document.querySelector(".fade-in");
+    element.style.opacity = 1; 
+});
+
+</script>
+</html>
